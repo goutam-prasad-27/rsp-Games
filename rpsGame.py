@@ -78,5 +78,8 @@ while True:
             Paper covers rock (win).
             If both players throw the same sign, it's a tie.
             """)
-    else:
+    elif startQ==3:
+        print(f'Goodbye {userName} !')
         break
+    else:
+        print("Invalid choice. Please enter 1, 2, or 3.")
